@@ -1,0 +1,13 @@
+package com.bridgeit;
+
+public interface StudentDao {
+
+	public void setDataSource(DataSource ds);
+	   
+	   
+	   public void create(String name, Integer age, Integer marks, Integer year);
+	   
+	  
+	   public List<StudentMarks> listStudents();
+	}
+

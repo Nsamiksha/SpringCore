@@ -1,0 +1,17 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/AOP/src/main/java/com/bridgeit/AOP/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOP/src/main/java/com/bridgeit/aop/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOP/src/main/java/com/bridgeit/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AutowireAnnotation/src/main/java/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AutowireAnnotationCollection/src/main/java/com/bridgeit/cfgs/autowire.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AutowireXml/src/main/java/com/bridgeit/cfgs/autowire.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/DIConstructor/src/main/java/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/DISetter/src/main/java/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCBeanFactory/src/main/java/com/bridgeit/cfgs/bean1.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCConstrustor/src/main/java/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCConstrustor/src/main/java/com/bridgeit/cfgs/bean1.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCConstrustor/src/main/resources/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IoCApplicationContext/src/main/java/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IoCSetter/src/main/java/com/bridgeit/cfgs/bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TransactionExample/src/main/java/com/bridgeit/Beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TransactionExample/src/main/java/com/bridgeit/cfgs/Beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+eclipse.preferences.version=1

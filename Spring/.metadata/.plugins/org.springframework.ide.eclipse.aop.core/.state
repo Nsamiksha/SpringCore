@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="AOP"/>
+<aop-project name="TransactionExample"/>
+<aop-project name="IoCApplicationContext"/>
+<aop-project name="DIConstructor"/>
+<aop-project name="AutowireAnnotationCollection"/>
+<aop-project name="IOCBeanFactory"/>
+<aop-project name="AutowireAnnotation"/>
+<aop-project name="DISetter"/>
+<aop-project name="AutowireXml"/>
+</aop-reference-model>

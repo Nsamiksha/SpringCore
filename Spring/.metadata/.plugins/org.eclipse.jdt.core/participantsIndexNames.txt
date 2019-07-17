@@ -1,0 +1,23 @@
+INDEX VERSION 1.131
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3966637637.index
+/LoginAndRegistration/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/673589188.index
+/AutowireXml/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2337266902.index
+/DIConstructor/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/55807294.index
+/com.bridgeit/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4210802785.index
+/AutowireAnnotation/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4093982920.index
+/SpringCore/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2804264886.index
+/dependency/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/801856841.index
+/IOCConstrustor/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2239151029.index
+/AutowireAnnotationCollection/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1748384024.index
+/DISetter/src/main/resources
+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3575131438.index
+/IoCSetter/src/main/resources

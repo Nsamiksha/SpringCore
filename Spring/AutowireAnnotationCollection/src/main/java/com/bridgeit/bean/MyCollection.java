@@ -1,0 +1,38 @@
+package com.bridgeit.bean;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class MyCollection {
+	private List<String> mylist;
+	
+	private List<Book> bookList;
+	
+	private Hobbies hobbies;
+	
+	public void setMylist(List<String> mylist) {
+		this.mylist = mylist;
+	}
+	
+	@Autowired
+	public void setBookList(List<Book> bookList) {
+		this.bookList = bookList;
+	}
+	
+	@Autowired
+	public void setHobbies(Hobbies hobbies) {
+		this.hobbies = hobbies;
+	}
+	
+	@Override
+	public String toString() {
+		return "MyCollection [mylist=" + mylist + ", bookList=" + bookList + ", hobbies=" + hobbies + "]";
+	}
+	
+	
+	
+	
+    
+}

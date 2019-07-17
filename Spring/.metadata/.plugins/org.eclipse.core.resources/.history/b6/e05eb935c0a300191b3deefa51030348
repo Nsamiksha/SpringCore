@@ -1,0 +1,22 @@
+package IocContainer.com.bridgeit.spring;
+
+public class Employee {
+ private String firstName;
+ 
+private String lastName;
+ private int id;
+ 
+ public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+public void setId(int id) {
+	this.id = id;
+}
+@Override
+public String toString() {
+	return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", id=" + id + "]";
+}
+}

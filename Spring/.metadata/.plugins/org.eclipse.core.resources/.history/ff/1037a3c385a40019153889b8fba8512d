@@ -1,0 +1,19 @@
+package com.bridgeit.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import com.bridgeit.bean.Bridgelabz;
+
+public class Welcome {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext ctx = null;
+ctx = new FileSystemXmlApplicationContext("src/main/java/com/bridgeit/cfgs/autowire.xml");
+Bridgelabz a=ctx.getBean("school",Bridgelabz.class);  
+a.display();  
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.bridgeit.test;
+
+public class Mobile {
+public static void main(String[] args) {
+	
+}
+}

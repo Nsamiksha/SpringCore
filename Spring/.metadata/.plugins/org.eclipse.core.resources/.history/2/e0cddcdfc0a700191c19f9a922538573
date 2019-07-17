@@ -1,0 +1,52 @@
+package com.bridgeit;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class TransactionMain {
+	public static void main(String[] args) {
+
+		ApplicationContext context = context = new FileSystemXmlApplicationContext(
+				"src/main/java/com/bridgeit/Beans.xml");
+		StudentJDBCTemplate studentJDBCTemplate = (StudentJDBCTemplate) context.getBean("studentJDBCTemplate");
+		String name = null;
+		int age = 0;
+		int marks = 0;
+		int year = 0;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the number of student wants to record");
+		int number = scanner.nextInt();
+
+		while (number > 0) {
+			System.out.println("enter the name of student");
+			 name = scanner.nextLine();
+			System.out.println("enter the age of student");
+			 age = scanner.nextInt();
+			System.out.println("enter the marks of student");
+			 marks = scanner.nextInt();
+			System.out.println("enter the year of passing of student");
+			 year = scanner.nextInt();
+			number--;
+		}
+
+		for(int i =1;i<0;i++) {
+		System.out.println("------Records creation--------");
+		studentJDBCTemplate.create(name, age, marks, year);
+		}
+
+		System.out.println("------Listing all the records--------");
+
+		List<StudentMarks> studentMarks = studentJDBCTemplate.listStudents();
+
+		for (StudentMarks record : studentMarks) {
+			System.out.print("ID : " + record.getId());
+			System.out.print(", Name : " + record.getName());
+			System.out.print(", Marks : " + record.getMarks());
+			System.out.print(", Year : " + record.getYear());
+			System.out.println(", Age : " + record.getAge());
+		}
+	}
+}

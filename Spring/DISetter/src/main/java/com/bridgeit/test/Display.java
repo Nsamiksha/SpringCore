@@ -1,0 +1,30 @@
+package com.bridgeit.test;
+
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.core.io.Resource;
+
+import com.bridgeit.bean.Employee;
+
+public class Display {
+
+	public static void main(String[] args) {
+		Resource res=null;
+		BeanFactory factory=null;
+		res=new FileSystemResource("src/main/java/com/bridgeit/cfgs/bean.xml");
+		
+		factory=new XmlBeanFactory(res);
+		
+
+		Employee employee = (Employee) factory.getBean("obj");
+employee.displayInformation();
+Employee employee1 = (Employee) factory.getBean("obj1");
+employee1.displayInformation();
+
+		
+		
+	}
+
+}

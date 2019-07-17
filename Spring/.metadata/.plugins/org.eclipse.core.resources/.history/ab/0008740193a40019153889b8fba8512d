@@ -1,0 +1,32 @@
+package com.bridgeit.bean;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
+public class MyCollection {
+	private List<String> myList;
+	private List<Book> bookList;
+	private int[] array;
+	public MyCollection () {}
+	public MyCollection(List<String> myList,  List<Book> bookList) {
+		this.myList = myList;
+		
+		this.bookList = bookList;
+	}
+	public List<String> getMyList() {
+		return myList;
+	}
+	public void setMyList(List<String> myList) {
+		this.myList = myList;
+	}
+	
+	public List<Book> getBookList() {
+		return bookList;
+	}
+	public void setBookList(List<Book> bookList) {
+		this.bookList = bookList;
+	}
+
+}

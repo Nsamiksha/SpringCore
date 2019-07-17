@@ -1,0 +1,19 @@
+package com.bridgeit.bean;
+
+public class Bridgelabz {
+	School school;  
+	Bridgelabz(){
+		System.out.println("a is created");
+		}  
+	public School getSchool() {  
+	    return school;  
+	}  
+	public void setSchool(School b) {  
+	    this.school = b;  
+	}  
+	void print(){System.out.println("hello a");}  
+	void display(){  
+	    print();  
+	    b.print();  
+	}  
+}

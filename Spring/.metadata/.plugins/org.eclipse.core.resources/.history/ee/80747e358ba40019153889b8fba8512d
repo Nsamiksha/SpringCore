@@ -1,0 +1,16 @@
+package com.bridgeit.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import com.bridgeit.bean.Customer;
+
+public class AutowireMain {
+public static void main(String[] args) {
+	ApplicationContext ctx = null;
+	ctx = new FileSystemXmlApplicationContext("src/main/java/com/bridgeit/cfgs/bean.xml");
+	    	Customer cust = (Customer)context.getBean("CustomerBean");
+	    	System.out.println(cust);
+}
+}

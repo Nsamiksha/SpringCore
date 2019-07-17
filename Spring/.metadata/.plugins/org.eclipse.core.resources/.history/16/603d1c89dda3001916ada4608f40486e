@@ -1,0 +1,22 @@
+package com.bridgeit.test;
+
+public class IoContainerMain {
+
+	
+	Resource resource=new ClassPathResource("bean.xml");  
+	BeanFactory factory=new XmlBeanFactory(resource);  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

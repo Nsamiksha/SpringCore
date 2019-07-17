@@ -1,0 +1,9 @@
+package com.bridgeit.test;
+
+
+public class CompanyInfo {
+public static void main(String[] args) {
+	ApplicationContext ctx = null;
+	ctx = new FileSystemXmlApplicationContext("src/main/java/com/bridgeit/cfgs/bean.xml");
+}
+}

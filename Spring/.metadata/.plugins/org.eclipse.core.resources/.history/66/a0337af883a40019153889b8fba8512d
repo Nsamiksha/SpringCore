@@ -1,0 +1,6 @@
+package com.bridgeit.bean;
+
+public class School {
+	School(){System.out.println("b is created");}  
+	void print(){System.out.println("hello b");}  
+}

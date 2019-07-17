@@ -1,0 +1,23 @@
+package com.bridgeit.bean;
+
+public class Customer {
+	//you want autowired this field.
+	private Person person;
+	
+	
+	private int type;
+	private String action;
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+	public void setType(int type) {
+		this.type = type;
+	}
+	public void setAction(String action) {
+		this.action = action;
+	}
+	@Autowired
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+}

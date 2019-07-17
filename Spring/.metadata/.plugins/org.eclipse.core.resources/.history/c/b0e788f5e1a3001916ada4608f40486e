@@ -1,0 +1,21 @@
+package com.bridgeit.test;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+import com.bridgeit.bean.Employee;
+
+public class IoContainerMain {
+
+	
+	Resource resource=new ClassPathResource("bean.xml");  
+	BeanFactory factory=new XmlBeanFactory(resource);  
+	
+	Employee employee = (Employee)factory.getBean("studentbean",Employee.class);
+	 
+	System.out.println(employee);
+	
+	
+}

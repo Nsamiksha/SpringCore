@@ -1,0 +1,27 @@
+package com.bridgeit.aop;
+
+import org.springframework.context.ApplicationContext;
+
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+
+		ApplicationContext ctx = null;
+
+		ctx = new FileSystemXmlApplicationContext("src/main/java/com/bridgeit/aop/applicationContext.xml");
+
+		Operation e = (Operation) ctx.getBean("opBean");
+
+		System.out.println("calling msg...");
+		e.msg();
+
+		System.out.println("calling m...");
+		int a= e.m();
+System.out.println(a);
+
+		System.out.println("calling k...");
+		int b= e.k();
+		System.out.println(b);
+	}
+}

@@ -1,0 +1,22 @@
+package com.bridgeit.test;
+
+
+import com.bridgeit.bean.Employee;
+
+public class Display {
+
+	public static void main(String[] args) {
+		Resource res=null;
+		BeanFactory factory=null;
+		res=new FileSystemResource("src/main/java/com/bridgeit/cfgs/bean.xml");
+		
+		factory=new XmlBeanFactory(res);
+		
+
+		Employee employee = (Employee) factory.getBean("studentbean");
+
+		employee.show();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+/home/user/Documents/workspace-sts-3.9.7.RELEASE/Spring/.metadata/.plugins/org.eclipse.jdt.core
+2802149284.index
+175630263.index
+2518075919.index
+2874239240.index
+233398192.index
+3446958563.index
+1369257502.index
+2001228286.index
+2721178749.index
+3032974781.index
+3344982159.index
+1478774985.index
+177343837.index
